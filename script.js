@@ -48,6 +48,7 @@ function main() {
 window.onload = main;
 
 
+
 //* Dette spil er dig som skal gætte et tal mellem 1 og 100. Computeren vil fortælle dig om dit gæt er for højt eller for lavt. Når du har gættet rigtigt vil computeren fortælle dig hvor mange forsøg det tog. */
 // let secret;
 
