@@ -8,19 +8,28 @@
 </head>
 <body>
 
-    <h1> HEADER BABY </h1>
+    <h1> GAME TIME BABY! </h1>
   
 
-    <h2> Gæt et tal mellem 1 og 100 </h2>
-    <ul id="gæt">
-        <li> Er det rigtige nummer mon 50? </li>
-    </ul>
-    <form action "" id="guesser">
-        <input type="number" id="guess">
+    <div id="game">
+        <h1>Omvendt Gæt et tal</h1>
+        <p id="message">Tænk på et tal mellem 1 og 100, og lad computeren gætte</p>
+        <p id="guess">Computerens gæt: </p>
+        <p id="feedback"></p>
+        <button id="tooLow">For lavt</button>
+        <button id="tooHigh">For højt</button>
+        <button id="correct">Korrekt</button>
+        <p id="attempts">Antal forsøg: 0</p>
+    </div>
+
+  
+    <!-- <ul id="guesses"></ul>
+    <form action="" id="guesser">
+        <input type="number" id="guess" min="1" max="100" required>
         <button id="guess-button">GÆT</button>
-    </form>
-
-
+    </form> -->
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
