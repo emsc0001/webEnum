@@ -27,7 +27,7 @@ function guessTooHigh() {
 
 function guessCorrect() {
     attempts++;
-    document.getElementById('feedback').innerText = `Yaay!! Mig computeren er den klogeste ${currentGuess} på ${attempts} forsøg.`;
+    document.getElementById('feedback').innerText = `Det tog computeren ${currentGuess} på ${attempts} forsøg.`;
     disableButtons();
 }
 
